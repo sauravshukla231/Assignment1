@@ -47,7 +47,7 @@ function f1()
 {
 var pa=parseInt(document.getElementById('pa').value);
 var duration=parseInt(document.getElementById('duration').value);
-var total=pa +(pa*10*duration)/100;
+var total=(pa*duration);
 document.getElementById('ta').value=total;
 }
 function f2()
