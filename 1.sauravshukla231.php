@@ -68,10 +68,13 @@ alert('Contact Number should be a numeric value only ');
 </head>
 <body >
 <div class="header">
-<marquee>Site's Header </marquee><div class="image"><img src="1.jpg"height=100px width=1330px>
+<marquee>LEARN HERE </marquee><div class="image"><img src="1.jpg"height=100px width=1330px>
 </div>
 <div class="menu">
-Site's Menu
+
+            <div class="row">
+               <marquee> <h1 class="progran">Program Details :Undergraduate,Post Graduate,Research</h1>
+           </marquee></div>
 </div>
 
 
@@ -81,7 +84,7 @@ Site's Menu
 <div class="frontform"><input type="text" name="contact" id="contact" placeholder="Your Contact" maxlength="10" onkeyup="f3()" required="required"  /></div>
 <div class="frontform">B.tech: <input type="radio" name="info" value="Academics" /> |
 BCA: <input type="radio" name="info" value="Programs" /></div>
-BBA: <input type="radio" name="info" value="Placements" /></div>|MBA: <input type="radio" name="info" value="About uss" /></div></br>
+BBA: <input type="radio" name="info" value="Placements" /> |MBA: <input type="radio" name="info" value="About uss" /></div></br>
 Courses<input type="checkbox" name="tutorialproblem" value="tutorialproblem" /> |
 Beyond Academics<input type="checkbox" name="info" value="info" /> |
 Other<input type="checkbox" name="other" value="other" />
@@ -98,6 +101,9 @@ Other<input type="checkbox" name="other" value="other" />
 </form>
 <div class="leftcontent2">
 <form method="post" >
+	<div class="frontform"><select name="course" required="required">
+<option value="">Select course </option><option value="BTECH">(3)BTECH</option><option value="BBA">(02)BBA</option><option value="MBA">(03)MBA</option><option value="POLYTECH">(1)POLYTECH</option>
+</select>
 <div class="frontform"><input type="number" name="pa" id="pa"  placeholder="COURSE CODE" /></div>
 <div class="frontform"><input type="number" name="duration" id="duration" placeholder="Duration" onblur="f1()"  /></div>
 <div class="frontform"><input type="number" name="ta" id="ta" readonly="readonly" placeholder="Total Amount" /></div>
